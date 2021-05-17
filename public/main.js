@@ -54,6 +54,8 @@ function main() {
   let largest = 0
   let arraySum = 0
   let average = 0
+  let sumOfOdd = 0
+  let countOfEven = 0
 
   for (let i = 0; i < numbers.length; i++) {
     arraySum = arraySum + numbers[i]
@@ -62,6 +64,12 @@ function main() {
     }
     if (numbers[i] < smallest) {
       smallest = numbers[i]
+    }
+    if (numbers[i] % 2 > 0) {
+      sumOfOdd = sumOfOdd + numbers[i]
+    }
+    if (numbers[i] % 2 < 1) {
+      countOfEven = countOfEven + 1
     }
   }
   average = arraySum / numbers.length
