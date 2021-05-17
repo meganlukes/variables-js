@@ -5,7 +5,7 @@ function main() {
   let numberOfCupsOfCoffee = 0 //I don't drink coffee
   let fullName = 'Megan Lukes'
   console.log(
-    'My name is ${fullName} and I drink ${numberOfCupsOfCoffee} per day.'
+    `My name is ${fullName} and I drink ${numberOfCupsOfCoffee} cups of coffee per day.`
   )
   const aboutMe = {
     fullname: 'Megan Lukes',
@@ -71,7 +71,6 @@ function main() {
     sum: arraySum,
     average: average,
   }
-  console.log('The number is ${properties.sum}')
 }
 
 document.addEventListener('DOMContentLoaded', main)
