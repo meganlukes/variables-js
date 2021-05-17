@@ -23,6 +23,19 @@ function main() {
   product = firstOperand * secondOperand
   quotient = firstOperand / secondOperand
   remainder = firstOperand % secondOperand
+  console.log(`The sum of ${firstOperand} and ${secondOperand} is ${sum}`)
+  console.log(
+    `The difference between ${firstOperand} and ${secondOperand} is ${difference}`
+  )
+  console.log(
+    `The product of ${firstOperand} and ${secondOperand} is ${product}`
+  )
+  console.log(
+    `The quotient of ${firstOperand} and ${secondOperand} is ${quotient}`
+  )
+  console.log(
+    `The remainder of ${firstOperand} divided by ${secondOperand} is ${remainder}`
+  )
 }
 
 document.addEventListener('DOMContentLoaded', main)
